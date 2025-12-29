@@ -7,15 +7,14 @@ let isLoggedIn = false
 let state;  //undefined datatype
 
 // number => 2 to power 53
-// bigint
+// bigInt
 // string => ""
 // boolean => true/false
 // null => standalone value
 // undefined => 
 // symbol => unique
-
-
 // object
+
 
 console.log(typeof undefined); // undefined
 console.log(typeof null); // object

@@ -1,4 +1,4 @@
-//  Primitive
+//  Primitive  Creation of copy....pass by value
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
@@ -12,8 +12,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);  // output will be false bcoz return type is diff...both are objects but they are different object
-
+console.log(id === anotherId);  // compared by identity, always unique
 // const bigNumber = 3456543576654356754n   //just write n in last 
     //typeof will give object
 
