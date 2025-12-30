@@ -1,6 +1,6 @@
 /*
-    Stack is a primitive datatype.....called by value
-    Heap is a reference datatype....called by reference   array,objects and functions
+    Stack is a primitive datatype.....called by value(deep copy)
+    Heap is a reference datatype....called by reference   array,objects and functions (shallow copy)
 */
 
 

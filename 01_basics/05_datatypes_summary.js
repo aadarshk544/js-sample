@@ -1,4 +1,4 @@
-//  Primitive  Creation of copy....pass by value
+//  Primitive  Creation of copy (deep copy)....pass by value
 
 //  7 types : String, Number, Boolean, null, undefined, Symbol, BigInt
 
@@ -18,7 +18,7 @@ console.log(id === anotherId);  // compared by identity, always unique
 //console.log(typeof bigNumber);
 
 
-// Reference (Non primitive)
+// Reference (Shallow copy) (Non primitive)
 
 // Array, Objects, Functions
 
