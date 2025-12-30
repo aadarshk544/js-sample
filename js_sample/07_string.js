@@ -46,7 +46,7 @@ const age=21
     - slice(start,end)     -> Extracts part (supports -ve)
     - substring(start,end) -> Extracts part (no -ve)  strat and end are index 0 to 3 then 3 is not included
     - substr(start,len)    -> Extracts using length (deprecated)
-    - split(sep,limit)     -> Converts string to array
+    - split(sep,limit)     -> Converts string to array (can also do without giving limit)
     - repeat(count)        -> Repeats string
     - replace(old,new)     -> Replaces first match
     - replaceAll(old,new)  -> Replaces all matches
@@ -84,7 +84,5 @@ const age=21
     CONSTRUCTOR:
     - String(value)         -> Creates string object
     
-
-
 
 */
