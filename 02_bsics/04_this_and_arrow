@@ -28,14 +28,14 @@ const user = {
 //     console.log(this.username);
 // }
 
-const chai =  () => {           //arroe function
+const chai =  () => {           //arrow function
     let username = "hitesh"
     console.log(this);   //here also it will give o/p {}
 }
 // chai()
 
 // Learn the difference between regular and arrow functions especially for this keyword....this is a reference to the context in which a function is executed.
-//Not where it is written. Where it is called.
+// Not where it is written. Where it is called.
 
 
 
@@ -50,7 +50,6 @@ const chai =  () => {           //arroe function
 //if using() so no required to use return keyword...implicit return
 
 const addTwo = (num1, num2) => ({username: "hitesh"})  // ( is req if not using return)
-
 
 console.log(addTwo(3, 4))
 

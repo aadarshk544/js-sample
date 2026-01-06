@@ -29,7 +29,7 @@ let ;
 //  = 5 ?? 10  //takes first val =5
 //  = null ?? 10  //here also takes first numeric val....10
 //  = undefined ?? 15  here also..takes first numeric val....15
- = null ?? 10 ?? 20 //10
+ a= null ?? 10 ?? 20 //10
 
 
 

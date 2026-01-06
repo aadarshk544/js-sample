@@ -1,4 +1,4 @@
-const user_id=5698   //its value cant be changed again
+const user_id=5698   //its value can't be changed again
 
 
 let account_email="ask@gmail.com"  // this is good practice bcoz it act as per the scope of the variable

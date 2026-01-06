@@ -1,5 +1,5 @@
 let score= null
-//console.log(typeof score)
+console.log(typeof score)
 
 let score_in_number= Number(score) 
           // Can do typecasting just by writing first letter into Capital i.e. Number, String, Boolean

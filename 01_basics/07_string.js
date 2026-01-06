@@ -63,8 +63,7 @@ const age=21
     - trim()                -> Removes spaces from both ends
     - trimStart()           -> Removes leading spaces
     - trimEnd()             -> Removes trailing spaces
-    - trimLeft()            -> Alias of trimStart
-    - trimRight()           -> Alias of trimEnd
+   
 
     UNICODE / ENCODING:
     - normalize(form)       -> Normalizes Unicode characters

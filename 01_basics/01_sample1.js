@@ -13,4 +13,4 @@ console.log("Aadarsh")
 
 */
 
-//Documentation Resources - MDN , TC39 use chrome...(rightclk...inspect...console)
+//Documentation Resources - MDN , TC39 or use chrome...(rightclk...inspect...console)
