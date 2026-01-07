@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="Students">
+        <li>Aadarsh</li>
+        <li>Komal</li>
+        <li>Keshav</li>
+    </ul>
+</body>
+
+<script>
+    function addStudent(name){
+        const li=document.createElement('li')
+        li.appendChild(document.createTextNode(name))
+        document.querySelector('.Students').appendChild(li)
+    }
+    addStudent('Dhruv')
+    addStudent('Raghav')
+
+    function updateChild(name,child){
+
+    const st=document.querySelector(`.Students li:nth-child(${child})`)
+    const newli=document.createElement('li')
+    newli.textContent=name
+    st.replaceWith(newli)
+
+    }
+    updateChild('Nidhi',1)
+
+    function removeChild(child){
+        const el=document.querySelector(`.Students li:nth-child(${child})`)
+        el.remove()
+    }
+    removeChild(3)
+
+</script>
+</html>
