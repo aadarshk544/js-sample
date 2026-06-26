@@ -79,4 +79,4 @@ console.log("02">true)   //true
 
 // ===  strict check   it checks both data and datatype...if both same then true
 
-console.log("2" === 2);
+console.log("2" === 2);  //here no conversion takes place ...here datatype is also get cheched
