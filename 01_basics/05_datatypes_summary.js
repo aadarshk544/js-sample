@@ -22,13 +22,13 @@ console.log(id === anotherId);  // compared by identity, always unique
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
+const heros = ["shaktiman", "naagraj", "doga"];   //its typeof  gives object but it is arr  isArray will give true
+let myObj = {      //its typeof will give object
     name: "hitesh",
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){     //its typeof will give function
     console.log("Hello world");
 }
 myFunction()
