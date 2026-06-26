@@ -8,7 +8,7 @@ let score_in_number= Number(score)
 
 /*  type will be changed to number everywhere    
 
-    "3560" = 33
+    "35" = 33
     "3560abcd" = NaN i.e. Not a Number
     true=1, false=0
     undefined = undefined
