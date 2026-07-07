@@ -24,6 +24,10 @@ console.log(id === anotherId);  // compared by identity, always unique
 
 let ans=new Number(10)     //it will create a object   can print its value by... console.log(ans.valueof())
 console.log(ans.valueof())
+let val=new Boolean(true)  //every thing in js cab be made as object....but it is not a recommended way
+
+
+
 const heros = ["shaktiman", "naagraj", "doga"];   //its typeof  gives object but it is arr  isArray will give true
 let myObj = {      //its typeof will give object
     name: "hitesh",
