@@ -1,3 +1,6 @@
+//if we make an const object then still we can  change the values inside object...bcoz object is const...but varibles inside the object are not
+
+
 // singleton
 // Object.create
 
