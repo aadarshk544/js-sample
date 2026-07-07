@@ -1,5 +1,7 @@
 console.log("Aadarsh")
 
+process.stdout.write("Aadarsh")     /*the problem with this is that it don't give a newline char*/
+
 /*
     Make repository
     add codespace
